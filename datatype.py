@@ -29,3 +29,17 @@ for i in numbers:
         print('Yes!')
     else:
         print('No value')
+
+# Tuple
+
+list_a = [1, 2, 3, 4]
+list_b = [5, 6, 7, 8]
+print(list(zip(list_a, list_b)))
+
+aria = ["bar", "baz", "qux", "etc"]
+aria.insert(0, "foo")
+print(tuple(aria))
+
+my_list = (1, 2, 3, 4, 5)
+num = 6 in my_list
+print(num)
